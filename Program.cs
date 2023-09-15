@@ -4,6 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+// Agregar politicas de cors para que conecte con cliente
 builder.Services.AddCors(options => options.AddPolicy(name: "CorsPolicy", builder =>
 {
     builder.WithOrigins("http://localhost:44445").WithMethods("GET");
