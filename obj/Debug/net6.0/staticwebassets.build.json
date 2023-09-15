@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QO0ZZouNR3Fr1rkLT1iwDuTnacwc9PKYbsItwxgJLUI=",
+  "Source": "WebScrapingHighRisk",
+  "BasePath": "_content/WebScrapingHighRisk",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KKylszi/8SjnYoBhyI7iu6uuH4PGFfK/0q/B6pT1MHxJFfotGUv4Ets/TQOmkpPUGU+pSCZO+BRRM9GcxVS9RQ==",
+  "success": true,
+  "projectFilePath": "E:\\Fabrizio\\EY\\WebScrapingHighRisk\\WebScrapingHighRisk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fabri\\.nuget\\packages\\htmlagilitypack\\1.11.53\\htmlagilitypack.1.11.53.nupkg.sha512"
+  ],
+  "logs": []
+}
