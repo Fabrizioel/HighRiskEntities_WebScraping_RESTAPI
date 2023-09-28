@@ -7,7 +7,7 @@ builder.Services.AddControllers();
 // Agregar politicas de cors para que conecte con cliente
 builder.Services.AddCors(options => options.AddPolicy(name: "CorsPolicy", builder =>
 {
-    builder.WithOrigins("url").WithMethods("GET");
+    builder.WithOrigins("https://highriskprovidersapplication20230915162525.azurewebsites.net").WithMethods("GET");
 }));
 
 var app = builder.Build();

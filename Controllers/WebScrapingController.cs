@@ -45,27 +45,25 @@ namespace WebScrapingHighRisk.Controllers
             var dataFrom = doc.DocumentNode.SelectNodes("//td[contains(@class, 'source text-nowrap')]//a");
 
             // En caso se encuentren coincidencias
-            if (entities != null)
+            if (entities == null) return highEntityRiskList;
+            // Asignar total de hits
+            highEntityRiskList.TotalHits = entities.Count;
+            int index = 0;
+            foreach (var item in entities)
             {
-                // Asignar total de hits
-                highEntityRiskList.TotalHits = entities.Count;
-                int index = 0;
-                foreach (var item in entities)
-                {
-                    // Crear y agregar entidades con sus respectivos atributos
-                    HighRiskEntity highRiskEntity = new(
-                        item.InnerHtml.Trim(),
-                        jurisdictions[index].InnerHtml.Trim(),
-                        linkedTo[index].InnerHtml.Trim(),
-                        dataFrom[index].InnerHtml.Trim()
-                    );
-                    entitiesAtRisk.Add(highRiskEntity);
-                    index++;
-                }
-
-                // Asignar lista de entidades
-                highEntityRiskList.HighRiskEntities = entitiesAtRisk;
+                // Crear y agregar entidades con sus respectivos atributos
+                HighRiskEntity highRiskEntity = new(
+                    item.InnerHtml.Trim(),
+                    jurisdictions[index].InnerHtml.Trim(),
+                    linkedTo[index].InnerHtml.Trim(),
+                    dataFrom[index].InnerHtml.Trim()
+                );
+                entitiesAtRisk.Add(highRiskEntity);
+                index++;
             }
+
+            // Asignar lista de entidades
+            highEntityRiskList.HighRiskEntities = entitiesAtRisk;
 
             return highEntityRiskList;
 

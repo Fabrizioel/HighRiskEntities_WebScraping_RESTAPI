@@ -1,0 +1,8 @@
+E:\Fabrizio\EY\WebScrapingHighRisk\obj\Release\net6.0\PubTmp\Out\WebScrapingHighRisk.exe
+E:\Fabrizio\EY\WebScrapingHighRisk\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+E:\Fabrizio\EY\WebScrapingHighRisk\obj\Release\net6.0\PubTmp\Out\appsettings.json
+E:\Fabrizio\EY\WebScrapingHighRisk\obj\Release\net6.0\PubTmp\Out\WebScrapingHighRisk.dll
+E:\Fabrizio\EY\WebScrapingHighRisk\obj\Release\net6.0\PubTmp\Out\WebScrapingHighRisk.deps.json
+E:\Fabrizio\EY\WebScrapingHighRisk\obj\Release\net6.0\PubTmp\Out\WebScrapingHighRisk.runtimeconfig.json
+E:\Fabrizio\EY\WebScrapingHighRisk\obj\Release\net6.0\PubTmp\Out\WebScrapingHighRisk.pdb
+E:\Fabrizio\EY\WebScrapingHighRisk\obj\Release\net6.0\PubTmp\Out\HtmlAgilityPack.dll
